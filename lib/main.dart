@@ -16,9 +16,9 @@ class BLoCApp extends StatelessWidget {
   Widget build(
     BuildContext context,
   ) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      onGenerateRoute: appRouter.generateRoute,
+      onGenerateRoute: AppRouter.generateRoute,
     );
   }
 }
